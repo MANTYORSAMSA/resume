@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+*{
+    margin: 0 auto;
+}
+
+.nav{
+    display:flex;
+    width: 200px;
+    background: #2E5C9A;
+    height:1000px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 0;
+    flex-direction:column;
+}
+
+.nav_logo{
+    position:absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.nav_text{
+    font-family: 'Lora';
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    color: white;
+    font-weight: medium;
+
+}
+.nav_text>p{
+    color:#669AE0;
+    transition:0.5s;
+}
+.nav_text>p:hover{
+    color:white;
+}
+
+#block {
+    margin-left: 200px;
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+}
+.main_picture{
+    margin: 60px;
+ 
+}
+.container>.h1_main{
+   margin: 60px;
+   padding-bottom: 265px;
+
+}
+.h1_main>div{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #727272;
+}
+button{
+    background: #96CFE0;
+    color: white;
+    border: 1px solid white;
+    padding:20px;
+    font-size: 18px;
+    border-radius:10px;
+ 
+}
+
+h2{
+    padding-top: 150px;
+   justify-content: center;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.about_me{
+    background-color: #EEEFF1;
+}
+.about_me_lorem{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   color:#727272;   
+   font-size: 16px;
+   padding-bottom: 100px;
+}
+.line{
+    background: #2E5C9A;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project{
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+    justify-content: space-between; 
+}
+#expr{
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 100px;
+}
+.section-3{
+    display: flex;
+    padding-bottom: 66.38px;
+}
+h4{
+    padding-bottom: 20px;
+}
+.pic{
+    display: flex;
+    flex-direction:column;
+}
+.pic>img{
+    margin-top: 10px;
+}
+.section-4{
+    height: 1004px;
+    background-color: #EEEFF1;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 32px;
+}
+#loreml{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+#video{
+    position: relative;
+    top: 57px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.section-5s{
+    display: flex;
+    justify-content: end;
+}
